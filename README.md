@@ -29,7 +29,10 @@ In C++, **strings** are used to handle textual data and can be represented in tw
 1. **Start** the program.
 2. **Declare** an integer variable `arr_elements` to store the number of elements in the array.
 3. **Prompt** the user to enter the size of the array and **store** it in `arr_elements`.
-4. **Declare** an integer array `arr` of size `arr_elements` (using Variable Length Array - VLA).
+4. **Declare** an integer array `arr` of size `arr_eleme## CONCLUSION
+
+In this experiment, we explored two fundamental concepts in C++: arrays and strings. Arrays were used to store and process collections of data using loops and index-based access. Both fixed-size declaration and element-wise input/output operations were practiced. For strings, we examined two approaches: C-style character arrays and the modern C++ `string` class. Through hands-on programs, we learned how to input, manipulate, and display strings efficiently. Understanding these basic data structures lays the foundation for more advanced programming, enabling efficient data storage, retrieval, and text processing in real-world applications.
+nts` (using Variable Length Array - VLA).
 5. **Use a for loop** to iterate from `0` to `arr_elements - 1`:
    - In each iteration, prompt the user to **input an element**.
    - **Store** the input in the corresponding index of the array.
@@ -76,4 +79,4 @@ In C++, **strings** are used to handle textual data and can be represented in tw
 
 ## CONCLUSION
 
-In this experiment, we explored two fundamental concepts in C++: arrays and strings. Arrays were used to store and process collections of data using loops and index-based access. Both fixed-size declaration and element-wise input/output operations were practiced. For strings, we examined two approaches: C-style character arrays and the modern C++ `string` class. Through hands-on programs, we learned how to input, manipulate, and display strings efficiently. Understanding these basic data structures lays the foundation for more advanced programming, enabling efficient data storage, retrieval, and text processing in real-world applications.
+In this experiment, I explored two fundamental concepts in C++: arrays and strings. Arrays were used to store and process collections of data using loops and index-based access. Both fixed-size declaration and element-wise input/output operations were practiced. For strings, I examined two approaches: C-style character arrays and the modern C++ `string` class. Through hands-on programs, I learned how to input, manipulate, and display strings efficiently. Understanding these basic data structures lays the foundation for more advanced programming, enabling efficient data storage, retrieval, and text processing in real-world applications.
